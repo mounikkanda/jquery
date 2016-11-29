@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies search</title>
+     <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+     <link rel="stylesheet" type="text/css" href="css/pagination.css">
+     <link rel="stylesheet" type="text/css" href="css/bg.css">
+</head>ss
+<body  id="bbb">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Movie Hungama</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+          <input type="text" id="input-search" class="form-control" />
+               <button type="button" onclick="searchmovies()"> search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+          <div class="error"></div> 
+            <div class="result"></div> 
+        </div>
+     </div>
+<!--      	<form>
+     		<input type="text" id="input-search" />
+     		<button type="button" onclick="searchmovies()"> search</button>
+     	</form>
+     </div>
+        <div class="container">
+          <div class="error"></div> 
+            <div class="result"></div> 
+        </div> -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+     <script type="text/javascript" src="js/movies.js"></script>
+     <script type="text/javascript" src="js/pagination.js"></script>
+</body>
+</html>
